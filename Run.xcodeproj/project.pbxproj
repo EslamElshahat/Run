@@ -7,15 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		62294E5D258ECED800983174 /* CurrentRunVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62294E5C258ECED800983174 /* CurrentRunVC.swift */; };
+		623E1E8B258EA25500C6EE34 /* LocationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 623E1E8A258EA25500C6EE34 /* LocationVC.swift */; };
 		62A1A630258A6EF5008B6406 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62A1A62F258A6EF5008B6406 /* AppDelegate.swift */; };
 		62A1A632258A6EF5008B6406 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62A1A631258A6EF5008B6406 /* SceneDelegate.swift */; };
 		62A1A634258A6EF5008B6406 /* BeginRunVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62A1A633258A6EF5008B6406 /* BeginRunVC.swift */; };
 		62A1A637258A6EF5008B6406 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62A1A635258A6EF5008B6406 /* Main.storyboard */; };
 		62A1A639258A6EF8008B6406 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62A1A638258A6EF8008B6406 /* Assets.xcassets */; };
 		62A1A63C258A6EF8008B6406 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62A1A63A258A6EF8008B6406 /* LaunchScreen.storyboard */; };
+		62A1A64D258ABD45008B6406 /* RunLogVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62A1A64C258ABD45008B6406 /* RunLogVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		62294E5C258ECED800983174 /* CurrentRunVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentRunVC.swift; sourceTree = "<group>"; };
+		623E1E8A258EA25500C6EE34 /* LocationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationVC.swift; sourceTree = "<group>"; };
 		62A1A62C258A6EF5008B6406 /* Run.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Run.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		62A1A62F258A6EF5008B6406 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		62A1A631258A6EF5008B6406 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +29,7 @@
 		62A1A638258A6EF8008B6406 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		62A1A63B258A6EF8008B6406 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		62A1A63D258A6EF8008B6406 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62A1A64C258ABD45008B6406 /* RunLogVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunLogVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,7 +70,6 @@
 				62A1A644258A7BF3008B6406 /* Resources */,
 				62A1A62F258A6EF5008B6406 /* AppDelegate.swift */,
 				62A1A631258A6EF5008B6406 /* SceneDelegate.swift */,
-				62A1A633258A6EF5008B6406 /* BeginRunVC.swift */,
 				62A1A635258A6EF5008B6406 /* Main.storyboard */,
 				62A1A638258A6EF8008B6406 /* Assets.xcassets */,
 				62A1A63A258A6EF8008B6406 /* LaunchScreen.storyboard */,
@@ -97,6 +102,10 @@
 		62A1A647258A8381008B6406 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				62A1A633258A6EF5008B6406 /* BeginRunVC.swift */,
+				62A1A64C258ABD45008B6406 /* RunLogVC.swift */,
+				623E1E8A258EA25500C6EE34 /* LocationVC.swift */,
+				62294E5C258ECED800983174 /* CurrentRunVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -185,7 +194,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				623E1E8B258EA25500C6EE34 /* LocationVC.swift in Sources */,
+				62294E5D258ECED800983174 /* CurrentRunVC.swift in Sources */,
 				62A1A634258A6EF5008B6406 /* BeginRunVC.swift in Sources */,
+				62A1A64D258ABD45008B6406 /* RunLogVC.swift in Sources */,
 				62A1A630258A6EF5008B6406 /* AppDelegate.swift in Sources */,
 				62A1A632258A6EF5008B6406 /* SceneDelegate.swift in Sources */,
 			);
